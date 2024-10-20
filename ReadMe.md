@@ -1,4 +1,10 @@
-# T-NAU (Totally, Not An UnBlocker...)
+# T-NAU (Totally, Not An UnBlocker...) - DEPRECATED
+
+## Important Notice: This Project is Deprecated
+
+This project is no longer maintained. Please use the new version, ["T-NAU V2"](https://github.com/DRKCTRL/T-NAU-V2), instead.
+
+---
 
 ## Important Notice: By Using This Software, You Agree to the Terms of Service and Acknowledge the Associated Risks.
 
