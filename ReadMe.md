@@ -1,35 +1,42 @@
-# T-NAU (Totally, Not An UnBlocker...) - DEPRECATED
+# T-NAU (Totally Not An UnBlocker) - DEPRECATED
 
-## Important Notice: This Project is Deprecated
+## Project Status: Deprecated
 
-This project is no longer maintained. Please use the new version, ["T-NAU V2"](https://github.com/DRKCTRL/T-NAU-V2), instead.
-
----
-
-## Important Notice: By Using This Software, You Agree to the Terms of Service and Acknowledge the Associated Risks.
-
-This tool allows you to unblock websites by opening them in an `about:blank` window. It provides a simple and effective way to bypass restrictions and access the content you need.
-
-## Features
-
-- Open any URL in an `about:blank` window
-- Simple and easy-to-use interface
-- Supports dynamic input width adjustment
-- Includes validation for URLs
-
-## How to Use
-
-1. Enter the URL you want to unblock in the input field.
-2. Press "Enter".
-3. The website will open in a new `about:blank` window.
-
-## Example
-
-1. Open the tool in your browser.
-2. Enter `https://example.com` in the input field.
-3. Click the "Search" button or press "Enter".
-4. The website `https://example.com` will open in a new `about:blank` Tab.
+This project is no longer maintained. For the latest version, please refer to ["T-NAU V2"](https://github.com/DRKCTRL/T-NAU-V2).
 
 ---
 
-*Created by AssuredSpider79 (DRKCTRL)*
+## Legal Notice
+
+By using this software, you agree to the Terms of Service and acknowledge the associated risks.
+
+## Project Overview
+
+T-NAU is a tool designed to bypass website restrictions by opening URLs in an `about:blank` window. It offers a straightforward method to access content that may otherwise be blocked.
+
+## Key Features
+
+1. URL opening in `about:blank` windows
+2. User-friendly interface
+3. Dynamic input width adjustment
+4. URL validation
+
+## Usage Instructions
+
+1. Launch the tool in your web browser
+2. Input the desired URL into the provided field
+3. Press "Enter" or click the "Search" button
+4. The requested website will open in a new `about:blank` window
+
+## Usage Example
+
+To access `https://example.com`:
+
+1. Open T-NAU in your browser
+2. Enter `https://example.com` in the input field
+3. Press "Enter" or click "Search"
+4. `https://example.com` will load in a new `about:blank` tab
+
+---
+
+*Developed by AssuredSpider79 (DRKCTRL)*
