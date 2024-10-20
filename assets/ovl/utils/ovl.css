@@ -1,0 +1,13 @@
+.overlay-utils {
+    right: -30%;
+    border-left: 2px solid var(--text);
+}
+
+.overlay-utils.active {
+    right: 0;
+}
+
+#rightButton.active {
+    right: calc(30% + 10px);
+    transform: scaleX(-1);
+}

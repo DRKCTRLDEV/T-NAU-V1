@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: var(--time);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.button-wrapper{
+  width: 100%;
+}
+
+.overlay .search-container {
+  max-width: none;
+  input {
+    color: var(--text);
+    background-color: var(--bg-1);
+    &:hover {
+      background: var(--bg-2);
+    }
+  }
+  
+  > i {
+    right: 15px;
+  }
+}
+
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  color: var(--text);
+  font-size: 1rem;
+  background: var(--bg-1);
+  border: 2px solid var(--text);
+  border-radius: 8px;
+  transition: var(--time);
+  width: 100%;
+  &:hover {
+    background: var(--bg-2);
+    border-color: var(--pm-1);
+  }
+}

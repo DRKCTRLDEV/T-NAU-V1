@@ -1,0 +1,48 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 425px;
+  position: relative;
+}
+
+.search-container input,
+.search-container button {
+  padding: 10px;
+  font-size: 1rem;
+  color: var(--text);
+  background: transparent;
+  border: 2px solid var(--text);
+  border-radius: 8px;
+  transition: var(--time);
+}
+
+.search-container input {
+  width: 100%;
+  padding-right: 40px;
+  outline: none;
+}
+
+.search-container input:is(:hover, :focus),
+.search-container button:hover {
+  border-color: var(--pm-1);
+  background: var(--bg-2);
+}
+
+.search-container > i {
+  position: absolute;
+  right: 60px;
+  color: var(--text);
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.search-container button {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-container button.active {
+  background: darkgreen;
+  border-color: var(--text);
+}

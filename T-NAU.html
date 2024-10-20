@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-NAU</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body, #loader {
+      background-color: #0f0f0f;
+    }
+    body { visibility: hidden; }
+    #loader {
+      visibility: visible;
+      position: fixed;
+      inset: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    #loader::after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      border: 5px solid #333;
+      border-top-color: #6a0dad;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+</head>
+
+<body>
+  <div id="loader"></div>
+
+  <main class="main">
+    <h1>T-NAU <span>(Totally, Not An UnBlocker...)</span></h1>
+    <div class="search-container">
+      <input type="text" id="urlInput" class="search-container__input" placeholder="Enter URL...">
+      <i class="fas fa-magnifying-glass search-container__icon"></i>
+      <button class="button-proxy" title="Toggle Proxy">
+        <i class="fas fa-server"></i>
+      </button>
+    </div>
+  </main>
+
+  <div class="overlay overlay-games" id="overlay-games">
+    <div class="search-container">
+      <input type="text" id="GameSearch" class="search-container__input" placeholder="Search games...">
+      <i class="fas fa-magnifying-glass search-container__icon"></i>
+    </div>
+  </div>
+
+  <button class="button button-panic" id="button-panic">
+    <i class="fas fa-exclamation-circle"></i>
+  </button>
+
+  <button class="button button-games" id="button-games">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+
+  <button class="button button-info" id="button-info">
+    <i class="fas fa-info-circle"></i>
+  </button>
+  
+  <script defer src="assets/scripts.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      document.body.style.visibility = 'visible';
+      document.getElementById('loader').style.display = 'none';
+    });
+  </script>
+</body>
+</html>

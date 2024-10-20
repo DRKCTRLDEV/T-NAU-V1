@@ -1,0 +1,13 @@
+.overlay-games {
+    left: -30%;
+    border-right: 2px solid var(--text);
+}
+
+.overlay-games.active {
+    left: 0;
+}
+
+#leftButton.active {
+    left: calc(30% + 10px);
+    transform: scaleX(-1);
+}
