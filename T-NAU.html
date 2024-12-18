@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="T-NAU - Totally Not An UnBlocker">
   <title>T-NAU</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
@@ -38,36 +39,38 @@
 </head>
 
 <body>
-  <div id="loader"></div>
+  <div id="loader" role="progressbar" aria-label="Loading..."></div>
 
   <main class="main">
     <h1>T-NAU <span>(Totally, Not An UnBlocker...)</span></h1>
     <div class="search-container">
-      <input type="text" id="urlInput" class="search-container__input" placeholder="Enter URL...">
-      <i class="fas fa-magnifying-glass search-container__icon"></i>
-      <button class="button-proxy" title="Toggle Proxy">
-        <i class="fas fa-server"></i>
+      <label for="urlInput" class="sr-only">Enter URL</label>
+      <input type="url" id="urlInput" class="search-container__input" placeholder="Enter URL..." autocomplete="off">
+      <i class="fas fa-magnifying-glass search-container__icon" aria-hidden="true"></i>
+      <button type="button" class="button-proxy" title="Toggle Proxy" aria-label="Toggle Proxy">
+        <i class="fas fa-server" aria-hidden="true"></i>
       </button>
     </div>
   </main>
 
-  <div class="overlay overlay-games" id="overlay-games">
+  <aside class="overlay overlay-games" id="overlay-games">
     <div class="search-container">
-      <input type="text" id="GameSearch" class="search-container__input" placeholder="Search games...">
-      <i class="fas fa-magnifying-glass search-container__icon"></i>
+      <label for="GameSearch" class="sr-only">Search games</label>
+      <input type="search" id="GameSearch" class="search-container__input" placeholder="Search games..." autocomplete="off">
+      <i class="fas fa-magnifying-glass search-container__icon" aria-hidden="true"></i>
     </div>
-  </div>
+  </aside>
 
-  <button class="button button-panic" id="button-panic">
-    <i class="fas fa-exclamation-circle"></i>
+  <button type="button" class="button button-panic" id="button-panic" aria-label="Panic">
+    <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
   </button>
 
-  <button class="button button-games" id="button-games">
-    <i class="fas fa-chevron-right"></i>
+  <button type="button" class="button button-games" id="button-games" aria-label="Toggle Games">
+    <i class="fas fa-chevron-right" aria-hidden="true"></i>
   </button>
 
-  <button class="button button-info" id="button-info">
-    <i class="fas fa-info-circle"></i>
+  <button type="button" class="button button-info" id="button-info" aria-label="Information">
+    <i class="fas fa-info-circle" aria-hidden="true"></i>
   </button>
   
   <script defer src="assets/scripts.js"></script>

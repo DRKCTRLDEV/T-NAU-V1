@@ -8,7 +8,7 @@ This project is no longer maintained. For the latest version, please refer to ["
 
 ## Legal Notice
 
-By using this software, you agree to the Terms of Service and acknowledge the associated risks.
+By using this software, you agree to the [Terms of Service](./TOS.md) and acknowledge the associated risks.
 
 ## Project Overview
 
