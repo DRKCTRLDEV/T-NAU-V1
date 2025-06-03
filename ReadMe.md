@@ -2,7 +2,7 @@
 
 ## Project Status: Deprecated
 
-This project is no longer maintained. For the latest version, please refer to ["T-NAU V2"](https://github.com/DRKCTRLDEV/NovaHub).
+This project is no longer maintained. For the latest version, please refer to ["T-NAU V2 (NovaHub)"](https://github.com/DRKCTRLDEV/NovaHub).
 
 ---
 
