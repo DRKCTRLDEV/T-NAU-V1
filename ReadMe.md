@@ -2,7 +2,7 @@
 
 ## Project Status: Deprecated
 
-This project is no longer maintained. For the latest version, please refer to ["T-NAU V2"](https://github.com/DRKCTRL/T-NAU-V2).
+This project is no longer maintained. For the latest version, please refer to ["T-NAU V2"](https://github.com/DRKCTRLDEV/NovaHub).
 
 ---
 
@@ -39,4 +39,4 @@ To access `https://example.com`:
 
 ---
 
-*Developed by AssuredSpider79 (DRKCTRL)*
+*Developed by AssuredSpider79 (DRKCTRLDEV)*
